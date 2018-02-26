@@ -88,4 +88,12 @@ nav ul li a:hover, a:visited, a:active, a:focus {
 
 .main {
     padding: 50px;
+    display: flex;
+    justify-content: flex-between;
+    flex-grow: 2;
+}
+
+.post {
+    background-color: #999;
+    flex-grow: 1;
 }
