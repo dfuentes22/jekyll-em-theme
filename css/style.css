@@ -1,4 +1,8 @@
 /*------------ General ------------*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:200');
+
 
 * {
     box-sizing: border-box;
@@ -10,9 +14,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:200');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:200');
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:200');
+h1, h2, h3, h4, h5, h6 {
+    color: #444;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    line-height: 1.5em;
+}
 
 .logo-text {
     font-family: 'Libre Baskerville', serif;
@@ -29,9 +38,20 @@ a {
     color: inherit;
 }
 
+.primary-color {
+    color: #e2a8a8 !important;
+}
+
 .wrapper {
   display: flex;
 }
+
+.page-title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: normal;
+}
+
 /*------------ Home - Side Bar ------------*/
 
 nav {
@@ -79,7 +99,7 @@ nav ul li a:hover {
 
 
 
-/*------------ Main Area ------------*/
+/*------------ Home: Main Area ------------*/
 
 .main {
   flex: 1 1 auto;
@@ -100,3 +120,42 @@ img {
     width: 100%;
 }
   
+/*------------ Pricing: Main Area ------------*/
+
+.pricing {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pricing ul {
+    margin-top: 0px !important;
+    padding: 0;
+    list-style: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px rgba(0,0,0,.08);
+}
+
+.pricing ul li {
+    line-height: 1.8em;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    padding: 8px 40px;
+    color: #555;
+    font-size: 14px;
+}
+ 
+.pricing ul li h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+.pricing ul li.pricing-title-row {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
