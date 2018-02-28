@@ -46,10 +46,31 @@ a {
   display: flex;
 }
 
+.main {
+  flex: 1 1 auto;
+  overflow: auto;
+  padding:50px;
+  margin-left: 300px;
+}
+
+.main hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding: 0; 
+}
+
 .page-title {
     font-size: 36px;
     font-style: normal;
     font-weight: normal;
+}
+
+.page-tagline {
+    color: #555;
+    font-size: 14px;
 }
 
 /*------------ Home - Side Bar ------------*/
@@ -100,13 +121,6 @@ nav ul li a:hover {
 
 
 /*------------ Home: Main Area ------------*/
-
-.main {
-  flex: 1 1 auto;
-  overflow: auto;
-  padding:50px;
-  margin-left: 300px;
-}
 
 .col-3 {
     column-count: 3;
