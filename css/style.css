@@ -202,7 +202,7 @@ textarea {
 input[type="submit"] {
     color: #fff !important;
     text-decoration: none !important;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     transition: all 0.1s linear;
     background-color: #e2a8a8;
     cursor: pointer;
@@ -214,3 +214,65 @@ input[type="submit"] {
     border: none;
     border-radius: 2px;
 }
+
+/*------------ Blog: Main Area ------------*/
+
+.blog {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.blog-item {
+    max-width: 700px;
+    widows: 100%;
+}
+
+.blog-item h3 {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+
+.blog-item .meta {
+    color: #999;
+}
+
+
+
+.meta a:hover, a:active {
+    text-decoration: underline;
+}
+
+.entry-summary {
+    font-size: 14px;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8em;
+    margin-top: 0px !important;
+    margin: 0;
+    padding: 0;
+}
+
+.blog hr {
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+
+.blog-item .read-more {
+    text-transform: uppercase;
+    font-size: 11px !important;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.blog-item a {
+    color: #e2a8a8;
+    text-align: right;
+} 
+
+.blog-item a:hover, .blog-item a:active {
+    text-decoration: underline;
+} 
+
