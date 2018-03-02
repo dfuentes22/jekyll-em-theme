@@ -175,3 +175,42 @@ img {
 }
 
 /*------------ Contact: Main Area ------------*/
+
+.contact {
+    margin-top: 45px;
+}
+
+input[type="text"], input[type="search"], input[type="email"], input[type="password"], input[type="number"], input[type="tel"], input[type="url"], textarea, select {
+    background-color: #eee;
+    color: #808080;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    max-width: 100%;
+    width: 70%;
+    margin: 10px 0 10px;
+    padding: 10px;
+    border-radius: 2px;
+    line-height: normal;
+    border: none;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="submit"] {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-family: "Open Sans";
+    transition: all 0.1s linear;
+    background-color: #e2a8a8;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 25px 11px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+}
