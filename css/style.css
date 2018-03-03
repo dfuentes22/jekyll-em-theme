@@ -220,12 +220,14 @@ input[type="submit"] {
 .blog {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding-top: 40px;
 }
 
 .blog-item {
     max-width: 700px;
-    widows: 100%;
+    width: 100%;
+    padding: 20px;  
 }
 
 .blog-item h3 {
