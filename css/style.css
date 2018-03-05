@@ -73,6 +73,24 @@ a {
     font-size: 14px;
 }
 
+@media (max-width: 991.98px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .main {
+        margin-left: 0px;
+    }
+
+    .page-title {
+        margin-top: 0px;
+    }
+
+    .main h2 {
+        text-align: center;
+    }
+}
+
 /*------------ Home - Side Bar ------------*/
 
 nav {
@@ -118,11 +136,19 @@ nav ul li a:hover {
     margin: 5px 0 0 0 !important;
 }
 
+@media (max-width: 991.98px) {
+    nav {
+        position: relative;
+        height: 300px;
+        text-align: center;
+    }
+}
+
 
 
 /*------------ Home: Main Area ------------*/
 
-.col-3 {
+.col {
     column-count: 3;
 }
 
@@ -132,6 +158,18 @@ nav ul li a:hover {
 
 img {
     width: 100%;
+}
+
+@media (max-width: 991.98px) {
+    .col {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .col {
+        column-count: 1;
+    }
 }
   
 /*------------ Pricing: Main Area ------------*/
@@ -213,6 +251,13 @@ input[type="submit"] {
     font-size: 14px;
     border: none;
     border-radius: 2px;
+}
+
+@media (max-width: 991.98px) {
+
+    input[type="text"], input[type="search"], input[type="email"], input[type="password"], input[type="number"], input[type="tel"], input[type="url"], input[type="submit"], textarea, select {
+        width: 100%;
+    }
 }
 
 /*------------ Blog: Main Area ------------*/
